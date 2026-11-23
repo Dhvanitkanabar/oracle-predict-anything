@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Splash screen theme — shown while the app cold-starts.
+        postSplashScreenTheme hands off to the Material3 theme once the app
+        is ready (called via installSplashScreen() in MainActivity).
+    -->
+    <style name="Theme.OracleSplash" parent="Theme.SplashScreen">
+        <!-- Deep-space background colour -->
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <!-- Adaptive icon foreground layer used as the splash icon -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <!-- Optional: tint the icon if it is a plain vector -->
+        <item name="windowSplashScreenIconBackgroundColor">@color/splash_icon_bg</item>
+        <!-- Hand off to the real theme after the splash is dismissed -->
+        <item name="postSplashScreenTheme">@style/Theme.OraclePredictAnything</item>
+    </style>
+
+    <!--
+        Main application theme — Pure Jetpack Compose app, no action bar.
+        Compose handles its own surface/background colours via MaterialTheme.
+    -->
+    <style name="Theme.OraclePredictAnything" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

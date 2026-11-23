@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Splash Screen ─────────────────────────────────────────── -->
+    <!-- Deep-space / midnight navy used as the splash background -->
+    <color name="splash_background">#0D0D1A</color>
+    <!-- Semi-transparent circle behind the adaptive-icon foreground layer -->
+    <color name="splash_icon_bg">#1A1A2E</color>
+
+    <!-- ── Brand Palette ──────────────────────────────────────────── -->
+    <!-- Primary — electric indigo -->
+    <color name="oracle_primary">#6C5CE7</color>
+    <!-- Primary variant / on-primary container -->
+    <color name="oracle_primary_variant">#4834D4</color>
+    <!-- Secondary — soft lavender -->
+    <color name="oracle_secondary">#A29BFE</color>
+    <!-- Accent / highlight — aurora teal -->
+    <color name="oracle_accent">#00CEC9</color>
+
+    <!-- ── Surfaces ───────────────────────────────────────────────── -->
+    <color name="oracle_background_dark">#0D0D1A</color>
+    <color name="oracle_surface_dark">#1A1A2E</color>
+    <color name="oracle_surface_variant_dark">#2D2B55</color>
+
+    <color name="oracle_background_light">#F5F4FF</color>
+    <color name="oracle_surface_light">#FFFFFF</color>
+    <color name="oracle_surface_variant_light">#EAE8FF</color>
+
+    <!-- ── Text ───────────────────────────────────────────────────── -->
+    <color name="oracle_on_background_dark">#E8E8F0</color>
+    <color name="oracle_on_background_light">#1C1B2E</color>
+
+    <!-- ── Status Colours ────────────────────────────────────────── -->
+    <color name="status_correct">#00B894</color>    <!-- green -->
+    <color name="status_incorrect">#D63031</color>  <!-- red   -->
+    <color name="status_pending">#FDCB6E</color>    <!-- amber -->
+    <color name="status_expired">#636E72</color>    <!-- grey  -->
+
+    <!-- ── Confidence Levels ─────────────────────────────────────── -->
+    <color name="confidence_low">#E17055</color>
+    <color name="confidence_medium">#FDCB6E</color>
+    <color name="confidence_high">#00B894</color>
+
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Oracle</string>
+    <string name="app_tagline">Predict Anything</string>
+
+    <!-- Bottom Navigation / Screens -->
+    <string name="nav_home">Home</string>
+    <string name="nav_predictions">Predictions</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">What will you predict today?</string>
+    <string name="home_subtitle">Choose a category and make your prediction.</string>
+    <string name="home_start_button">Start Predicting</string>
+
+    <!-- Categories -->
+    <string name="category_label">Category</string>
+    <string name="category_all">All</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_finance">Finance</string>
+    <string name="category_weather">Weather</string>
+    <string name="category_politics">Politics</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_science">Science</string>
+    <string name="category_technology">Technology</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_other">Other</string>
+
+    <!-- Prediction Form -->
+    <string name="prediction_title_hint">Describe your prediction…</string>
+    <string name="prediction_title_label">Prediction</string>
+    <string name="prediction_outcome_yes">Yes / True</string>
+    <string name="prediction_outcome_no">No / False</string>
+    <string name="prediction_outcome_label">Expected Outcome</string>
+    <string name="prediction_confidence_label">Confidence</string>
+    <string name="prediction_confidence_low">Low</string>
+    <string name="prediction_confidence_medium">Medium</string>
+    <string name="prediction_confidence_high">High</string>
+    <string name="prediction_due_date_label">Due Date</string>
+    <string name="prediction_due_date_hint">Pick a date…</string>
+    <string name="prediction_notes_hint">Add notes (optional)…</string>
+    <string name="prediction_notes_label">Notes</string>
+    <string name="prediction_save_button">Save Prediction</string>
+    <string name="prediction_cancel_button">Cancel</string>
+    <string name="prediction_edit_button">Edit</string>
+    <string name="prediction_delete_button">Delete</string>
+    <string name="prediction_resolve_button">Resolve</string>
+    <string name="prediction_share_button">Share</string>
+
+    <!-- Prediction Status -->
+    <string name="status_pending">Pending</string>
+    <string name="status_correct">Correct ✓</string>
+    <string name="status_incorrect">Incorrect ✗</string>
+    <string name="status_expired">Expired</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Prediction History</string>
+    <string name="history_empty">No predictions yet.\nTap + to make your first one!</string>
+    <string name="history_filter_label">Filter by status</string>
+    <string name="history_sort_label">Sort</string>
+    <string name="history_sort_newest">Newest First</string>
+    <string name="history_sort_oldest">Oldest First</string>
+    <string name="history_sort_due_date">Due Date</string>
+    <string name="history_sort_confidence">Confidence</string>
+
+    <!-- Stats / Score -->
+    <string name="stats_accuracy_label">Accuracy</string>
+    <string name="stats_total_label">Total Predictions</string>
+    <string name="stats_correct_label">Correct</string>
+    <string name="stats_incorrect_label">Incorrect</string>
+    <string name="stats_pending_label">Pending</string>
+    <string name="stats_streak_label">Current Streak</string>
+    <string name="stats_best_category_label">Best Category</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme_label">Theme</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_notifications_label">Reminders</string>
+    <string name="settings_notifications_desc">Notify me before predictions expire</string>
+    <string name="settings_clear_data_label">Clear All Data</string>
+    <string name="settings_clear_data_confirm">Are you sure you want to delete all predictions? This cannot be undone.</string>
+    <string name="settings_about_label">About Oracle</string>
+    <string name="settings_version_label">Version</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_delete_title">Delete Prediction?</string>
+    <string name="dialog_delete_message">This prediction will be permanently deleted.</string>
+    <string name="dialog_resolve_title">Resolve Prediction</string>
+    <string name="dialog_resolve_message">Was your prediction correct?</string>
+
+    <!-- Errors / Empty States -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_title_empty">Please enter a prediction title.</string>
+    <string name="error_date_past">Due date cannot be in the past.</string>
+    <string name="empty_state_no_results">No predictions match your filter.</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_body">Oracle is a personal prediction-tracking app for entertainment purposes only.
+        Predictions recorded here do not constitute financial, medical, legal, or any professional advice.
+        All outcomes are user-defined and self-reported. Use responsibly.</string>
+    <string name="disclaimer_agree">I Understand</string>
+
+    <!-- Accessibility -->
+    <string name="cd_add_prediction">Add new prediction</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_category_icon">Category icon</string>
+    <string name="cd_confidence_bar">Confidence indicator</string>
+    <string name="cd_delete_prediction">Delete this prediction</string>
+    <string name="cd_resolve_prediction">Mark prediction as resolved</string>
+
+</resources>
